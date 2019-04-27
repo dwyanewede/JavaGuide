@@ -233,4 +233,7 @@ Markdown 格式参考：[Github Markdown格式](https://guides.github.com/featur
 ### 关于转载
 
 如果你需要转载本仓库的一些文章到自己的博客的话，记得注明原文地址就可以了。
-https://github.com/dwyanewede/JavaGuide/
+https://github.com/Snailclimb/JavaGuide
+
+### 原文地址
+https://github.com/Snailclimb/JavaGuide
