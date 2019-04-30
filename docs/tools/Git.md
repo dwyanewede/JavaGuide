@@ -1,4 +1,4 @@
-<!-- TOC -->
+## 玩转Git你需要掌握的基本功能
 
 - [版本控制](#版本控制)
     - [什么是版本控制](#什么是版本控制)
@@ -19,8 +19,6 @@
     - [撤销操作](#撤销操作)
     - [分支](#分支)
 - [推荐阅读](#推荐阅读)
-
-<!-- /TOC -->
 
 ## 版本控制
 
@@ -145,7 +143,7 @@ Git 有三种状态，你的文件可能处于其中之一：
 
 ### 推送改动到远程仓库
 
-- 如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：·`git remote add origin <server>` ,比如我们要让本地的一个仓库和 Github 上创建的一个仓库关联可以这样`git remote add origin https://github.com/Snailclimb/test.git` 
+- 如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：·`git remote add origin <server>` ,比如我们要让本地的一个仓库和 Github 上创建的一个仓库关联可以这样`git remote add origin https://github.com/dwyanewede/project-learn.git` 
 - 将这些改动提交到远端仓库：`git push origin master` (可以把 *master* 换成你想要推送的任何分支)
 
   如此你就能够将你的改动推送到所添加的服务器上去了。
@@ -164,7 +162,7 @@ Git 有三种状态，你的文件可能处于其中之一：
 只看某个人的提交记录：
 
 ```shell
-git log --author=bob
+git log --author=sxs
 ```
 
 ### 撤销操作
@@ -250,9 +248,15 @@ git push origin
 
 
 
-## 推荐阅读
+### 文章推荐
 
-- [Git - 简明指南](http://rogerdudler.github.io/git-guide/index.zh.html)
-- [图解Git](http://marklodato.github.io/visual-git-guide/index-zh-cn.html)
-- [猴子都能懂得Git入门](https://backlog.com/git-tutorial/cn/intro/intro1_1.html)
-- https://git-scm.com/book/en/v2
+> 和逛微博、刷朋友圈一样玩转 GitHub
+>
+> https://blog.csdn.net/shang_xs/article/details/89679509
+
+### 公众号推荐
+
+<font face="Helvetica" size="3" color="#FF3030">欢迎关注公众号，不仅为你推荐最新的博文，
+回复 【1024】还可以获取海量编程资料和各种简历模板 !</font>
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20190429171444889.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3NoYW5nX3hz,size_16,color_FFFFFF,t_70)
